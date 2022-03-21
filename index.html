@@ -14,6 +14,9 @@
     <!-- ========== Favicon Icon ========== -->
     <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
 
+    <!-- Bootstrap 5 -->
+    
+
     <!-- ========== Start Stylesheet ========== -->
     <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
     <link href="assets/css/font-awesome.min.css" rel="stylesheet" />
@@ -70,7 +73,7 @@
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
                         <i class="fa fa-bars"></i>
                     </button>
-                    <a class="navbar-brand" href="index.html">
+                    <a class="navbar-brand dropdown-toggle smooth-menu" href="./index.html">
                         <p style="color:#0047AB; margin-top:1rem; font-size: 3rem;">DisruptVA</p>
                         <!-- <img src="assets/img/image (2).png" class="logo logo-display" alt="Logo"> -->
                     </a>
@@ -81,7 +84,7 @@
                 <div class="collapse navbar-collapse" id="navbar-menu">
                     <ul class="nav navbar-nav navbar-right" data-in="#" data-out="#">
                         <li class="">
-                            <a href="#home" class="dropdown-toggle smooth-menu"  >Home</a>
+                            <!-- <a href="#home" class="dropdown-toggle smooth-menu"  >Home</a> -->
                             <ul class="">
                                 <!-- <li><a href="index.html">Home Version One</a></li>
                                 <li><a href="">Home Version Two</a></li>
@@ -101,9 +104,9 @@
                         <li class="dropdown dropdown-right">
                             <a class="dropdown-toggle smooth-menu" href="#features"  data-toggle="dropdown">Solutions</a>
                             <ul class="dropdown-menu">
-                                <li><a href="index.html">Video Analytics </a></li>
-                                <li><a href="">AI visual inspection</a></li>
-                                <li><a href="">OCR</a></li>
+                                <li><a href="./Pages/Video-Analytics.html">Video Analytics </a></li>
+                                <li><a href="./Pages/AI-Visual-Inspection.html">AI visual inspection</a></li>
+                                <li><a href="./Pages/OCR.html">OCR</a></li>
                                 <!-- <li><a href="">Home Version Four</a></li>
                                 <li><a href="">Home Version Five</a></li> -->
                                
@@ -115,10 +118,10 @@
                         <li class="dropdown dropdown-right">
                             <a class="dropdown-toggle smooth-menu" href="#features"  data-toggle="dropdown">Services</a>
                             <ul class="dropdown-menu">
-                                <li><a href="index.html">Data Anotation</a></li>
-                                <li><a href="">AI Model Traning</a></li>
-                                <li><a href="">Model Optimization</a></li>
-                                <li><a href="">Data insights</a></li>
+                                <li><a href="./Pages/Data-anotation.html">Data Anotation</a></li>
+                                <li><a href="./Pages/AI-model.html">AI Model Traning</a></li>
+                                <li><a href="./Pages/model-optimization.html">Model Optimization</a></li>
+                                <li><a href="./Pages/data-insights.html">Data insights</a></li>
                                 
                                
                                 
@@ -126,15 +129,18 @@
                                 <li><a href="">Home Version Ten <span class="badge">New</span></a></li> -->
                             </ul>
                         </li>
+                        <li>
+                            <a class="smooth-menu" href="#pricing">case studies</a>
+                        </li>
                     
                         <li>
-                            <a class="smooth-menu" href="#pricing">Blogs</a>
+                            <a class="smooth-menu" href="#pricing">Blog</a>
                         </li>
                         <li>
-                            <a class="smooth-menu" href="#team">newsletter</a>
+                            <a class="smooth-menu" href="#team">webnair</a>
                         </li>
                         <li>
-                            <a class="smooth-menu" href="#contact">contact us</a>
+                            <a class="smooth-menu" href="#contact">contact </a>
                         </li>
                     </ul>
                 </div><!-- /.navbar-collapse -->
@@ -157,9 +163,9 @@
                             <!-- Banner Left Content -->
                             <div class="info col-md-6">
                                 <div class="content inc-video">
-                                    <h1 style="color: #fff;">It's time to create your own business scheme</h1>
-                                    <p  style="color: #fff;">
-                                        Celebrated delightful an especially increasing instrument am. Indulgence contrasted sufficient to unpleasant in in insensible favourable.
+                                    <h1 style="color: #fff;">Deploy the power of computer vision</h1>
+                                    <p  style="color: #fff; font-size: 3rem; font-weight: bolder; ">
+                                       Gather Data Analyze & Grow
                                     </p>
                                     <a href="#"  style="color: #fff; border: solid 1px #fff;" class="btn circle btn-dark border btn-md">Get Started</a>
                                     <a class="popup-youtube light video-play-button video-inline" href="https://www.youtube.com/watch?v=owhuBrGIOsE">
@@ -288,19 +294,25 @@
 
     <!-- Start About 
     ============================================= -->
-    <div id="about" class="about-area bg-gray default-padding">
+    <div id="about" class="about-area bg-gray " style="padding-bottom: 6rem;">
+        <div id="custom_h4" ><h4 > About <span style="color: #0047AB;">Us</span> </h4></div>
+        
         <div class="container">
             <div class="row">
                 <div class="col-md-5 thumb">
                     <img src="assets/img/700 800.jpg" alt="Thumb">
                 </div>
                 <div class="col-md-7 default info">
-                    <h4>Why Chose Us</h4>
-                    <h2>Designed for startups <br>with expert developer</h2>
+                    
+                    <!-- <h2>DisruptVA</h2> -->
                     <p>
-                        Both rest of know draw fond post as. It agreement defective to excellent. Feebly do engage of narrow. Extensive repulsive belonging depending if promotion be zealously as. Preference inquietude ask now are dispatched led appearance. Small meant in so doubt hopes. 
+                        DisruptVA is a computer vision and video analytics solution provider that helps businesses harness the power of artificial intelligence (A.I) based computer vision technology to ramp up efficiency within the ethical perimeters that respect privacy and personal space of an individual or group.  
+As a firm founded by machine & deep learning engineers, we at DisruptVA fully understand the implications of A.I. on society and the individual, so the ethical boundaries we set for ourselves lie at the heart of everything we do. 
+A.I. is set to disrupt the ways things work. We believe the best way or perhaps the only way to adopt A.I. based technologies is to do so in human-first terms. The many transformations that computer vision is set to bring should all be prefaced by one thought before adoption: Is it for the overall good of the society and individual?
+The foundation of DisruptVA is grounded on this principle: espouse computer vision technology for the upliftment of business and society at large. That’s how we define our mission statement. 
+Based on this principle we choose NOT to offer facial recognition solutions – one of the most lucrative verticals in computer vision technology -because we believe that intrudes on the personal freedom of individuals.   
                     </p>
-                    <ul>
+                    <!-- <ul>
                         <li>
                             <h5>Rocket Fast</h5>
                             <span>Elderly is detract tedious assured private</span>
@@ -313,8 +325,8 @@
                             <h5>Minimal Design</h5>
                             <span>Mistress strongly remember up</span>
                         </li>
-                    </ul>
-                    <a href="#" class="btn circle btn-theme effect btn-md">Read more</a>
+                    </ul> -->
+                    <a href="#" class="btn circle btn-theme effect btn-md mt-0">Read more</a>
                 </div>
             </div>
         </div>
@@ -663,7 +675,7 @@
             <div class="row">
                 <div class="col-md-8 col-md-offset-2">
                     <div class="site-heading text-center">
-                        <h2>Innovative <span>Team</span></h2>
+                        <h2>Our <span>Team</span></h2>
                         <h4>Meet our awesome and expert team members</h4>
                     </div>
                 </div>
