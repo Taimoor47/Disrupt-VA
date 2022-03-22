@@ -62,6 +62,7 @@ body {
   overflow-x: hidden;
   background-color: #ffffff;
   color: #666666;
+  
 }
 
 html, body, .wrapper {
@@ -1463,12 +1464,96 @@ body,
   padding: 30px;
   position: relative;
   z-index: 1;
+  text-align: center;
 }
 
 .we-offer-area.text-center .item {
   background: #ffffff none repeat scroll 0 0;
   border: medium none;
+  margin:2rem 4rem 0 4rem;
+  
   padding: 67px 40px 64px;
+}
+
+/* .outcome a:hover{
+color: #18dc59;
+} */
+.outcome-card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  text-align: center;
+  
+  margin:2rem 4rem 0 4rem;
+  padding: 5rem;
+  height: 20vw;
+  border-radius: 2rem;
+  background-position: center;
+  box-shadow:2rem #ccc;
+  box-shadow: 0px 0px 0px 1000px rgba(0, 0, 0, 0.4) inset;
+  /* box-shadow: inset 0 0 5px 2px #282a2d; mark the inset */
+}
+
+.bg-1{
+  background-image: url(./assets/img/cards/christopher-burns-8KfCR12oeUM-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-2{
+  background-image: url(./assets/img/cards/scott-graham-5fNmWej4tAA-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-3{
+  background-image: url(./assets/img/cards/fotis-fotopoulos-6sAl6aQ4OWI-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-4{
+  background-image: url(./assets/img/cards/luke-peters-B6JINerWMz0-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.outcome-card h3{
+  color: #fff;
+  font-weight: 700;
+  text-transform: capitalize;
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  text-shadow:1px 1px 2px #000;
+  -moz-text-shadow:1px 1px 2px #000;
+  -ms-text-shadow:1px 1px 2px #000;
+  -o-text-shadow:1px 1px 2px #000;
+  -webkit-text-shadow:1px 1px 2px #000;
+ 
+  
+}
+@media (max-width:768px) {
+  .outcome-card h3{
+    color: #fff;
+    font-weight: 600;
+    font-size: 1.9rem;
+    text-transform: capitalize;
+    margin-bottom: 1rem;
+    text-shadow:1px 1px 2px #000;
+    -moz-text-shadow:1px 1px 2px #000;
+    -ms-text-shadow:1px 1px 2px #000;
+    -o-text-shadow:1px 1px 2px #000;
+    -webkit-text-shadow:1px 1px 2px #000;
+   
+    
+  }
+}
+
+
+.mm{
+  margin-top: 7rem;
+  background-color: #0047AB !important;
+  color: #fff !important;
+  border-radius: 1rem;
+ 
 }
 
 .we-offer-area.text-center .item i {
@@ -2258,6 +2343,30 @@ body,
   padding-right: 15px;
 }
 
+/* ============================================= */
+/* tab */
+
+.tab{
+  flex-wrap: nowrap;
+  margin-bottom: 5rem;
+}
+
+.tab h3{
+  font-weight: bold;
+  opacity: 0.9;
+}
+
+.tab h3:hover{
+border-bottom: 2px solid #0047AB ;
+opacity: 1;
+}
+
+
+
+
+
+
+
 /* ============================================================== 
      # Success Stories 
 =================================================================== */
@@ -2600,12 +2709,16 @@ body,
   -o-box-shadow: 0 0 10px #cccccc;
   box-shadow: 0 0 10px #cccccc;
   box-sizing: border-box;
-  color: ;
+  /* color: ; */
   display: inline-block;
   font-size: 20px;
   height: 50px;
   line-height: 50px;
   width: 50px;
+}
+
+body{
+  scroll-behavior: smooth;
 }
 
 .team-area .info .message a i {
