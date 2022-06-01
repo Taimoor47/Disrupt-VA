@@ -732,7 +732,8 @@ nav.navbar.bootsnav.sticked .attr-nav.social li {
 }
 
 .site-heading h4::before {
-  background: #0047AB none repeat scroll 0 0;
+  /* background: #0047AB none repeat scroll 0 0; */
+  background-color: red;
   bottom: 0;
   content: "";
   height: 2px;
@@ -914,6 +915,14 @@ body,
   display: flex;
   justify-content: center;
   vertical-align: middle;
+}
+#get-started-btn:hover{
+  background-color: red;
+  color: #fff;
+}
+#home-section-img{
+  opacity: 0.8;
+  border-radius: 30px 30px 30px 30px;
 }
 
 .banner-area.auto-height .double-items,
@@ -3782,7 +3791,8 @@ blockquote {
 }
 
 .companies-area .info span {
-  color: #0047AB;
+  /* color: #0047AB; */
+  color: darkgreen;
   font-weight: 900;
   font-size: 36px;
 }
