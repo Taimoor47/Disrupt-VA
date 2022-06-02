@@ -458,9 +458,9 @@ input {
 
 .btn.btn-light.effect:hover, 
  .btn.btn-light.effect:focus {
-  background-color: #FF0000;
+  background-color: #E41B17;
   color: #ffffff !important;
-  border: 2px solid #FF0000;
+  border: 2px solid #E41B17;
 }
 
 .btn.btn-light.border {
@@ -486,7 +486,7 @@ input {
 }
 
 .bg-gradient {
-  background: #FF0000;
+  background: #E41B17;
 background: -webkit-linear-gradient(top left, #FF5B6E, #E6011C);
 background: -moz-linear-gradient(top left, #FF5B6E, #E6011C);
 background: linear-gradient(to bottom right, #FF5B6E, #E6011C);
@@ -512,8 +512,8 @@ background: linear-gradient(to bottom right, #FF5B6E, #E6011C);
 
 .btn-theme.effect:hover, 
  .btn-theme.effect:focus {
-  background: #FF0000 none repeat scroll 0 0;
-  border: 2px solid #FF0000;
+  background: #E41B17 none repeat scroll 0 0;
+  border: 2px solid #E41B17;
   color: #ffffff;
 }
 
@@ -1711,7 +1711,7 @@ h1{
 }
 
 .mm:hover{
-  background-color: 	#FF0000!important;
+  background-color: 	#E41B17!important;
 }
 
 .we-offer-area.text-center .item i {
@@ -3139,7 +3139,7 @@ blockquote {
   color: #ffffff;
 }
 .btn-primary-green:hover{
-  background: #FF0000 none repeat scroll 0 0;
+  background: #E41B17 none repeat scroll 0 0;
   color: #ffffff;
 }
 
@@ -3725,7 +3725,7 @@ blockquote {
 }
 
 .contact-us-area .contact-form button:hover{
-  background: #FF0000 none repeat scroll 0 0;
+  background: #E41B17 none repeat scroll 0 0;
 }
 
 .contact-us-area .contact-form button i {
@@ -4231,7 +4231,7 @@ footer .f-item .address li:first-child {
 }
 
 footer .f-item > img {
-  margin-bottom: 25px;
+  margin-bottom: 20px;
 }
 
 footer .f-item.link li {
