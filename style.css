@@ -493,21 +493,21 @@ background: linear-gradient(to bottom right, #FF5B6E, #E6011C);
 }
 
 .btn-theme {
-  background-color: #39ab42;
+  background-color:  #347C2C;
   color: #ffffff !important;
-  border: 2px solid #39ab42;
+  border: 2px solid  #347C2C;
 }
 
 .btn-theme.border {
   background-color: transparent;
-  color: #39ab42 !important;
-  border: 2px solid #39ab42;
+  color:  #347C2C !important;
+  border: 2px solid  #347C2C;
 }
 
 .btn-theme.border:hover {
-  background-color: #39ab42;
+  background-color:  #347C2C;
   color: #ffffff !important;
-  border: 2px solid #39ab42;
+  border: 2px solid  #347C2C;
 }
 
 .btn-theme.effect:hover, 
@@ -1518,7 +1518,7 @@ color: #18dc59;
   top:2rem;
   right:-0.5rem;
   content: '';
-  background: 	#7CFC00;
+  background: 	#347C2C;
   height: 28px;
   width: 28px;
   transform : rotate(45deg);
@@ -1530,7 +1530,7 @@ color: #18dc59;
   right: -14px;
   padding: 0.5rem;
   width: 10rem;
-  background: #39ab42;
+  background:  #347C2C;
   color: white;
   text-align: center;
   font-family: 'Roboto', sans-serif;
@@ -1704,7 +1704,7 @@ h1{
 
 .mm{
   margin-top: 7rem;
-  background-color: 	#39ab42!important;
+  background-color: 	 #347C2C!important;
   color: #fff !important;
   border-radius: 1rem;
  
@@ -3135,7 +3135,7 @@ blockquote {
   text-transform: uppercase;
 }
 .btn-primary-green{
-  background: #39ab42 none repeat scroll 0 0;
+  background:  #347C2C none repeat scroll 0 0;
   color: #ffffff;
 }
 .btn-primary-green:hover{
@@ -3620,7 +3620,7 @@ blockquote {
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   border-radius: 50%;
-  color: #39ab42;
+  color:  #347C2C;
   font-size: 20px;
   height: 50px;
   line-height: 48px;
@@ -3709,7 +3709,7 @@ blockquote {
 }
 
 .contact-us-area .contact-form button {
-  background: #39ab42 none repeat scroll 0 0;
+  background:  #347C2C none repeat scroll 0 0;
   border: medium none;
   box-shadow: inherit;
   color: #ffffff;
@@ -3809,7 +3809,7 @@ blockquote {
 
 .companies-area .info span {
   /* color: #0047AB; */
-  color: #39ab42;
+  color:  #347C2C;
   font-weight: 900;
   font-size: 36px;
 }
@@ -4212,7 +4212,7 @@ footer .f-item .address li i {
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   border-radius: 50%;
-  color: #39ab42;
+  color:  #347C2C;
   font-size: 25px;
   width: 30px;
 }
@@ -4340,6 +4340,6 @@ footer.color-yellow .footer-bottom p a {
   height: 100%;
   z-index: 999999;
   /* background-size: 396px 127px; */
-  background: url(assets/img/vv.png) center no-repeat #fff;
+  background: url(assets/img/preloader.png) center no-repeat #fff;
   text-align: center;
 }
